@@ -1,0 +1,35 @@
+<?php
+
+$lang['panel_title'] = "Pesan";
+$lang['add_title'] = "Menyusun";
+$lang['folder'] = "Folder";
+$lang['inbox'] = "Inbox";
+$lang['to'] = "Untuk";
+$lang['status'] = "Status";
+$lang['name'] = "Nama";
+$lang['subject'] = "Subyek";
+$lang['attach'] = "Melampirkan";
+$lang['time'] = "Waktu";
+$lang['sent'] = "Dikirim";
+$lang['trash'] = "Sampah";
+$lang['favorite'] = "Favorit";
+$lang['slno'] = "#";
+$lang['message_title'] = "Judul";
+$lang['message_message'] = "Pesan";
+$lang['message_date'] = "Tanggal";
+$lang['action'] = "Tindakan";
+$lang['read_message'] = "Baca Pesan";
+$lang['reply'] = "Membalas";
+$lang['compose_new'] = "Susun Pesan Baru";
+$lang['admin_select_label'] = "Daftar Admin";
+$lang['student_select_label'] = "Daftar Siswa";
+$lang['parent_select_label'] = "Daftar Orang Tua";
+$lang['teacher_select_label'] = "Daftar Guru";
+$lang['librarian_select_label'] = "Daftar Pustakawan";
+$lang['accountant_select_label'] = "Daftar Akuntan";
+$lang['attachment'] = "Lampiran";
+$lang['send'] = "Mengirim";
+$lang['close'] = "Dekat";
+$lang['sender'] = "Pengirim";
+$lang['discard'] = "Membuang";
+$lang['error'] = "Balas Tidak Dikirim!";

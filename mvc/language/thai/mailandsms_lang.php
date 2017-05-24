@@ -1,0 +1,31 @@
+<?php
+
+$lang['panel_title'] = "จดหมาย / Sms";
+$lang['add_title'] = "เพิ่มอีเมล / Sms";
+$lang['slno'] = "#";
+$lang['mailandsms_users'] = "ผู้ใช้";
+$lang['mailandsms_select_user'] = "เลือกผู้ใช้";
+$lang['mailandsms_select_template'] = "เลือกแม่แบบ";
+$lang['mailandsms_select_send_by'] = "เลือกส่งโดย";
+$lang['mailandsms_students'] = "นักเรียน";
+$lang['mailandsms_parents'] = "พ่อแม่";
+$lang['mailandsms_teachers'] = "ครู";
+$lang['mailandsms_librarians'] = "บรรณารักษ์";
+$lang['mailandsms_accountants'] = "บัญชี";
+$lang['mailandsms_template'] = "แบบ";
+$lang['mailandsms_type'] = "ชนิด";
+$lang['mailandsms_email'] = "อีเมล์";
+$lang['mailandsms_sms'] = "ข้อความ";
+$lang['mailandsms_getway'] = "ส่งโดย";
+$lang['mailandsms_subject'] = "เรื่อง";
+$lang['mailandsms_message'] = "ข่าวสาร";
+$lang['mailandsms_dateandtime'] = "วันและเวลา";
+$lang['mailandsms_clickatell'] = "Clickatell";
+$lang['mailandsms_twilio'] = "Twilio";
+$lang['mailandsms_bulk'] = "ส่วนใหญ่";
+$lang['action'] = "การกระทำ";
+$lang['view'] = "ดู";
+$lang['send'] = "ส่ง";
+$lang['mail_success'] = "ส่งอีเมล์ประสบความสำเร็จ";
+$lang['mail_error'] = "โอ๊ะไม่ส่งอีเมล์!";
+$lang['mail_error_user'] = "โอ๊ะรายชื่อผู้ใช้ยังว่างอยู่";

@@ -1,0 +1,35 @@
+<?php
+
+$lang['panel_title'] = "মেসেজ";
+$lang['add_title'] = "কম্পোজ";
+$lang['folder'] = "ফোল্ডার";
+$lang['inbox'] = "ইনবক্স";
+$lang['to'] = "থেকে";
+$lang['status'] = "অবস্থা";
+$lang['name'] = "নাম";
+$lang['subject'] = "বিষয়";
+$lang['attach'] = "ফাইল যুক্ত করুন";
+$lang['time'] = "সময়";
+$lang['sent'] = "প্রেরিত";
+$lang['trash'] = "আবর্জনা";
+$lang['favorite'] = "প্রিয়";
+$lang['slno'] = "#";
+$lang['message_title'] = "শিরোনাম";
+$lang['message_message'] = "মেসেজ";
+$lang['message_date'] = "তারিখ";
+$lang['action'] = "কর্ম";
+$lang['read_message'] = "মেসেজ পড়ুন";
+$lang['reply'] = "উত্তর";
+$lang['compose_new'] = "নতুন মেসেজ লিখতে পারবেন";
+$lang['admin_select_label'] = "অ্যাডমিন তালিকা";
+$lang['student_select_label'] = "ছাত্রছাত্রীর তালিকা";
+$lang['parent_select_label'] = "মাতাপিতার তালিকা";
+$lang['teacher_select_label'] = "শিক্ষক তালিকা";
+$lang['librarian_select_label'] = "লাইব্রেরীয়ান তালিকা";
+$lang['accountant_select_label'] = "হিসাবরক্ষক তালিকা";
+$lang['attachment'] = "যুক্ত করান";
+$lang['send'] = "পাঠান";
+$lang['close'] = "বন্ধ করা";
+$lang['sender'] = "প্রেরক";
+$lang['discard'] = "বাতিল করুন";
+$lang['error'] = "উত্তরটি প্রেরিত হয়নি!";

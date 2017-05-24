@@ -1,0 +1,31 @@
+<?php
+
+$lang['panel_title'] = "Posta / Sms";
+$lang['add_title'] = "Aggiungere Una Mail / Sms";
+$lang['slno'] = "#";
+$lang['mailandsms_users'] = "Utenti";
+$lang['mailandsms_select_user'] = "Seleziona Utenti";
+$lang['mailandsms_select_template'] = "Seleziona Modello";
+$lang['mailandsms_select_send_by'] = "Selezionare Invia By";
+$lang['mailandsms_students'] = "Studenti";
+$lang['mailandsms_parents'] = "Genitori";
+$lang['mailandsms_teachers'] = "Insegnanti";
+$lang['mailandsms_librarians'] = "Bibliotecari";
+$lang['mailandsms_accountants'] = "Contabili";
+$lang['mailandsms_template'] = "Modello";
+$lang['mailandsms_type'] = "Tipo";
+$lang['mailandsms_email'] = "Email";
+$lang['mailandsms_sms'] = "Sms";
+$lang['mailandsms_getway'] = "Invia Tramite";
+$lang['mailandsms_subject'] = "Soggetto";
+$lang['mailandsms_message'] = "Messaggio";
+$lang['mailandsms_dateandtime'] = "Data E Ora";
+$lang['mailandsms_clickatell'] = "Clickatell";
+$lang['mailandsms_twilio'] = "Twilio";
+$lang['mailandsms_bulk'] = "Massa";
+$lang['action'] = "Azione";
+$lang['view'] = "Vista";
+$lang['send'] = "Inviare";
+$lang['mail_success'] = "Email Inviare Con Successo!";
+$lang['mail_error'] = "Oops! E-mail Non Inviare!";
+$lang['mail_error_user'] = "Oops! Elenco Degli Utenti è Vuota!";

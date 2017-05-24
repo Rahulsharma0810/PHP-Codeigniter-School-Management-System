@@ -1,0 +1,867 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>iNilabs School</title>
+	
+	<meta name="description" content="A documentation for iNilabs school management system!">
+	<meta name="author" content="inilabs">
+	<meta name="copyright" content="inilabs">
+	
+	<link rel="stylesheet" href="./assets/css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="./assets/js/google-code-prettify/prettify.css" media="screen">
+	<script src="./assets/js/google-code-prettify/prettify.js"></script>
+
+	<link rel="stylesheet" href="./assets/css/custom.css" media="screen">
+
+	<link rel="shortcut icon" type="image/x-icon" href="site.png" />
+
+	<script src="./assets/js/jquery.js"></script>
+	<script src="./assets/js/cufon.js"></script><script src="assets/js/font.js"></script><script>Cufon.replace("h1, h2, h3, h4, h5, h6");</script>
+	<script src="./assets/js/jquery.scrollTo.js"></script>
+	<script src="./assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='450',easing='easeOutExpo';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#F3F3F3;color:#585858;}
+		::-moz-selection{background:#111111;color:#F1F1F1;}
+		::selection{background:#111111;color:#F1F1F1;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/image_16.png);}
+		a{color:#111111;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #585858, #3B3B3B);
+			  background-image: -ms-linear-gradient(top, #585858, #3B3B3B);
+			  background-image: -webkit-gradient(linear, 0 0, 0 585858%, from(#333333), to(#3B3B3B));
+			  background-image: -webkit-linear-gradient(top, #585858, #3B3B3B);
+			  background-image: -o-linear-gradient(top, #585858, #3B3B3B);
+			  background-image: linear-gradient(top, #585858, #3B3B3B);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#585858', endColorstr='#3B3B3B', GradientType=0);
+			  border-color: #3B3B3B #3B3B3B #bfbfbf;
+			  color:#F9F9F9;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #585858 #585858 #bfbfbf;
+		  background-color: #3B3B3B;
+		}
+		hr{border-top:1px solid #E5E5E5;border-bottom:1px solid #F9F9F9;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#333333;color:#F1F1F1;http://static.revaxarts-themes.com/noise.gif}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #444444;-moz-text-shadow:1px 1px 0px #444444;text-shadow:1px 1px 0px #444444;}
+		#documenter_sidebar ul{border-top:1px solid #222222;}
+		#documenter_sidebar ul a{border-top:1px solid #444444;border-bottom:1px solid #222222;color:#F1F1F1;}
+		#documenter_sidebar ul a:hover{background:#111111;color:#F1F1F1;border-top:1px solid #111111;}
+		#documenter_sidebar ul a.current{background:#111111;color:#F1F1F1;border-top:1px solid #111111;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-documenter-v20">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#what_is_this" title="What is this?">What is this?</a></li>
+			<li><a href="#features" title="Features">Features</a></li>
+			<li><a href="#system_requrements" title="System Requrements">System Requrements</a></li>
+			<li><a href="#installation" title="Installation">Installation</a></li>
+      <li><a href="#how_to_start" title="How to Start">How To Start</a></li>
+      <li><a href="#automation" title="Automation">Automation</a></li>
+      <li><a href="#attendance" title="Attendance">Attendance</a></li>
+      <li><a href="#promotion" title="Promotion">Promotion</a></li>
+      <li><a href="#paypal" title="Paypal">Paypal</a></li>
+      <li><a href="#mailandsms" title="Mail/SMS">Mail/SMS</a></li>
+			<li><a href="#media" title="Media">Media</a></li>
+			<li><a href="#admin" title="Admin">All About Admin</a></li>
+			<li><a href="#teacher" title="Teacher">All About Teacher</a></li>
+			<li><a href="#accountant" title="Accountant">All About Accountant</a></li>
+			<li><a href="#librarian" title="Librarian">All About Librarian</a></li>
+			<li><a href="#student" title="Student">All About Student</a></li>
+			<li><a href="#parents" title="Parents">All About Parents</a></li>
+			<li><a href="#developer_support" title="Developer support">Developer support</a></li>
+			<li><a href="#what_else" title="What else">What else</a></li>
+		
+		</ul>
+		<div id="documenter_copyright">
+			<a href="http://school.inilabs.net">v2.0</a> <br>
+			Copyright iNiLabs 2015<br>
+			Find us on <a href="https://www.facebook.com/inilabs">Facebook</a>
+		</div>
+	</div>
+	<div id="documenter_content">
+		<section id="documenter_cover">
+			<h1>iNiLABS School Management System v.2.0</h1>
+			<h2>Make it easy</h2>
+			<div id="documenter_buttons">
+				<a href="http://schoolv2.inilabs.net" class="btn btn-primary btn-large">Live Demo</a> 
+			</div>
+			<hr>
+			<ul>
+			<li>Created: 03/06/2015</li>
+			<li>Latest update: 15/08/2015</li>
+			<li>By: iNiLabs ( <a href="http://inilabs.net">inilabs.net</a> )</li>
+			<li>Support: <a href="http://support.inilabs.net/">Online Help line Desk ( support.inilabs.net )</a></li>
+			</ul>
+			<p>Details of iNilabs School Management System v.2.0 documentation</p>
+		</section>
+		
+		<section id="what_is_this">
+			<div class="page-header"><h3>What is this?</h3><hr class="notop"></div>
+			<p>
+				iNiLabs School management system is uses for manage education based organization like school, college, universities etc. Or user can use it different purposes.
+			<p>
+				Please read this documentation before you make your own. </p>
+		</section>
+<section id="features">
+<div class="page-header"><h3>Features</h3><hr class="notop"></div>
+<pre class="prettyprint lang-plain linenums">
+iNiLabs School management system is uses for manage education based organization like school, college, universities.
+Multiuser account. Admin, Teacher, Accountant, Librarian, Student, Parents account are available.
+Admin can create Teacher, Accountant, Librarian, Student, Parents account.
+Admin can create student class.
+Admin can create student section.
+Admin can create grading point.
+Admin can create student subject.
+Admin can create exam & exam schedule.
+Admin & Teacher can give student mark.
+Admin can create student class routine.
+Admin & Teacher can give student attendance.
+Admin & Teacher can give student exam attendance.
+Admin can give teacher daily attendance.
+Admin can give promotion student one class to another class.
+Admin & Librarian can add student as library member.
+Admin can add librarys book.
+Admin & Librarian can issue a book for student.
+Admin & Librarian also see library fine history.
+Admin can create transport route.
+Admin & Accountant can add transport member.
+Admin can create hostel & hostel category list.
+Admin & Accountant can add student as hostel member.
+Admin can create student fee type.e.g(Admission fee)
+Admin & Accountant add invoice for student.
+Admin, Accountant ,parent & student can payment invoice via paypal, cash & cheque.
+Admin & Accountant can see student account balance amount.
+Admin & Accountant can add expense.
+Admin can setup Paypal settings.
+Admin & Teacher can share media. Two type of media file access permission - public and class group. 
+Admin & All users can send internal message with attachment.
+Admin can create SMS/Mail Templete for particular sms/mail purpose.
+Admin can send SMS/Mail for all user by group.
+Admin can setup SMS/Mail settings for sms. Clicktell, BulkSMS, Twilio sms gateways are available.
+Admin can create notice.
+Admin can print student report.
+Admin & all user can change there password.
+Admin & all user can see there profile.
+Student can see there payment/invoice history, issue book, media and other features.
+Parents can see there childrens activities.
+It has 14 different types language support.
+</pre>
+</section>
+
+<section id="system_requrements">
+			<div class="page-header"><h3>System Requrements</h3><hr class="notop"></div>
+<pre class="prettyprint lang-plain linenums">
+PHP 5.3+
+MYSQL 5+
+PHP Mcrypt Extention
+PHP MBString Extension
+PHP DOM Extension
+PHP GD Extension
+PHP MYSQL Extension
+PHP PDO Extention
+PHP CURL Extention
+</pre>
+		</section>
+
+    <section id="installation">
+    			<div class="page-header"><h3>Installation</h3><hr class="notop"></div>
+<pre class="prettyprint lang-plain linenums">
+Unzip and copy the script folder in your hosting server.
+Make sure in script folder index.php file have permission as 644 
+Manually create a database using “Phpmyadmin”.
+Run the install script path from any web browser (http://server.com/install/index).
+if pre-install checklist seems all ok then click next
+Provide codecanyon purchase code and then click next.
+Provide database hostname, database name, username and password.
+After filling up all input fields, press next.
+Provide timezone and click next
+Then fill up organization information and admin login information.
+Now click 'go to login'
+Good Luck!!!
+</pre>		
+			<p>
+				<img src="assets/images/screenshots/new/ins_step1.png" width="1000" style="padding: 0px 20px;"/>
+			</p>
+			<p>
+			 	<img src="assets/images/screenshots/new/ins_step2.png" width="1000" style="padding: 0px 20px;"/>
+			<p> 	
+			 	<img src="assets/images/screenshots/new/ins_step3.png" width="1000" style="padding: 0px 20px;"/>
+			<p>
+			 	<img src="assets/images/screenshots/new/ins_step4.png" width="1000" style="padding: 0px 20px;"/>
+			<p>
+			 	<img src="assets/images/screenshots/new/ins_step5.png" width="1000" style="padding: 0px 20px;"/>
+			<p>             	
+			 	<img src="assets/images/screenshots/new/ins_step6.png" width="1000" style="padding: 0px 20px;"/>
+			</p>
+    </section>
+
+		<section id="how_to_start">
+        		<div class="page-header"><h3>How to Start</h3><hr class="notop"></div>
+        		<h4>1. ADD Teacher</h4>
+        		At first Add Teacher. Please following below steps : 
+<pre class="prettyprint">
+Login as admin 
+Select teacher menu in sidebar 
+Click Add Teacher & fill out the all information
+Then Click Add Teacher Button
+</pre>
+				<p>
+					<img src="assets/images/screenshots/new/add_teacher.png" width="1000" style="padding: 0px 20px;"/>
+				</p>
+				<p>
+					<img src="assets/images/screenshots/new/add_teacher2.png" width="1000" style="padding: 0px 20px;"/>
+				</p>
+        		<h4>2. ADD Class</h4>
+        		Add Class. Please following below steps : 
+<pre class="prettyprint">
+Login as admin 
+Select class menu in sidebar 
+Click Add class & fill out the all information
+Then Click Add Class Button
+</pre>
+              <p><img src="assets/images/screenshots/new/add_class.png" width="1000" style="padding: 0px 20px;"></p>
+
+              <p><img src="assets/images/screenshots/new/class_add_with_value.png" width="1000" style="padding: 0px 20px;"></p>
+
+        		<h4>3. ADD Section</h4>
+        		Add Section. Please following below steps : 
+<pre class="prettyprint">
+Login as admin 
+Select section menu in sidebar 
+Click Add section & fill out the all information
+Then Click Add Section Button
+</pre>
+			  <p><img src="assets/images/screenshots/new/add_section.png" width="1000" style="padding: 0px 20px;"></p>
+
+              <p><img src="assets/images/screenshots/new/class_add_section_with_value.png" width="1000" style="padding: 0px 20px;"></p>
+
+        		<h4>4. ADD Parents</h4>
+        		Add Parents. Please following below steps : 
+<pre class="prettyprint">
+Login as admin 
+Select parents menu in sidebar 
+Click Add parents & fill out the all information
+Then Click Add Parents Button
+</pre>
+			  <p><img src="assets/images/screenshots/new/add_parents.png" width="1000" style="padding: 0px 20px;"></p>
+
+              <p><img src="assets/images/screenshots/new/parents_add_with_value.png" width="1000" style="padding: 0px 20px;"></p>
+
+        		<h4>5. ADD Student</h4>
+        		Add Student. Please following below steps : 
+<pre class="prettyprint">
+Login as admin 
+Select student menu in sidebar 
+Click Add student & fill out the all information
+Then Click Add Student Button
+</pre>
+			  <p><img src="assets/images/screenshots/new/add_student.png" width="1000" style="padding: 0px 20px;"></p>
+              <p><img src="assets/images/screenshots/new/student_add_with_value.png" width="1000" style="padding: 0px 20px;"></p>
+		</section>
+
+    <section id="automation">
+      <div class="page-header"><h3>Auto Generate Invoice</h3><hr class="notop"></div>
+      <h5>What is Auto Generate Invoice ?</h5>
+      <p>Auto Generate Invoice for Library, Transport and Hostel. In each month generate invoice a particular date in every month. default automation date is 5(automation must be between 1 to 28).</p>
+      <p>Automation date uses for automatically add fee amount of library, transport & hostel membership holders in their account balance. </p>
+      <br/>
+      <h5>How to Set Auto Generate Invoice Date ?</h5>
+<pre class="prettyprint">
+Login as admin 
+Select setting menu in sidebar 
+Then put your auto generate invoice date in Automation field
+</pre>
+    <p><img src="assets/images/screenshots/new/automation.png" width="1000" style="padding: 0px 20px;"></p>
+    </section>
+
+    <section id="attendance">
+      <div class="page-header"><h3>How to Set Attendance</h3><hr class="notop"></div>
+      <h4>1. Student Attendance</h4>
+<pre class="prettyprint">
+Login as admin or teacher
+Select attendance menu in sidebar 
+Then select student attendance 
+Click Add student attendance Button
+Select Class and Date and press Attendance Button
+Check Student row Checkbox in Action Column for student attendance.
+</pre>
+
+      <h4>2. Teacher Attendance</h4>
+<pre class="prettyprint">
+Login as admin
+Select attendance menu in sidebar 
+Then select teacher attendance 
+Click Add teacher attendance Button
+Select Date and press Attendance Button
+Check Teacher row Checkbox in Action Column for teacher attendance.
+</pre>
+
+      <h4>3. Exam Attendance</h4>
+<pre class="prettyprint">
+Login as admin or teacher
+Select attendance menu in sidebar 
+Then select exam attendance 
+Click Add exam attendance Button
+Select Exam, Class and Date and press Attendance Button
+Check Student row Checkbox in Action Column. That means Student attend that exam.
+</pre>
+    </section>
+
+    <section id="promotion">
+      <div class="page-header"><h3>Student Promotion to Next Class</h3><hr class="notop"></div>
+      <h5>Step 1: A list of student qualified for promotion to next class</h5>
+<pre class="prettyprint">
+Login as admin or teacher
+Select promotion menu in sidebar 
+Then select class 
+After select class the page load all subject under that class with extra field
+Set the minimum number in each subject field for promotion to next class 
+Then Click Promotion Mark Setting Button
+</pre>
+		<p><img src="assets/images/screenshots/new/promotion_setting.png" width="1000" style="padding: 0px 20px;"></p>
+
+      <h5>Step 2: Final step of student promotion to next class</h5>
+<pre class="prettyprint">
+Status of student in result column
+Check Student row Checkbox in Action Column for promote student to next class.
+Then Click Promotion To Next Class Button
+</pre>
+		<p><img src="assets/images/screenshots/new/promotion_result.png" width="1000" style="padding: 0px 20px;"></p>
+    </section>
+
+    <section id="paypal">
+      <div class="page-header"><h3>Paypal Settings</h3><hr class="notop"></div>
+<pre class="prettyprint">
+Login as admin 
+Select account menu in sidebar 
+Then Select Payment Settings
+Fill out your paypal information
+Default Paypal Sandbox off. if you want to test your paypal setting then Paypal Sandbox button should be on.
+</pre>
+		<p><img src="assets/images/screenshots/new/paypal_setting.png" width="1000" style="padding: 0px 20px;"></p>
+    </section>
+
+    <section id="mailandsms">
+      <div class="page-header"><h3>Mail and SMS</h3><hr class="notop"></div>
+      <h5>What is Mail and SMS Template ?</h5>
+      <p>Mail and SMS Template is structure of multiple purposes mail and sms.</p>
+      <h5>How to Add Template</h5>
+<pre class="prettyprint">
+Login as admin 
+Select mail/sms menu in sidebar 
+Then Select mail/sms template
+Click Add a template Button
+Then Create your Template
+</pre>
+      <h5>What is Tags ?</h5>
+      <p>Tags is attribute of each student information. Just like Student Name, Student Class, Student Section, Student Result with Marks and Grade, Student Email etc.</p>
+      <p>
+        <img src="assets/images/screenshots/new/mailandsms.png" width="1000" style="padding: 0px 20px;">
+      </p>
+    </section>
+
+    <section id="media">
+      <div class="page-header"><h3>Media</h3><hr class="notop"></div>
+      <h5>What is Media ?</h5>
+      <p>Share important documents for all users in school management system or Share documents only for a particular Class.</p>
+      <h5>How to Add Documents and Share ?</h5>
+<pre class="prettyprint">
+Login as admin or teacher
+Select media menu in sidebar 
+Then Add a File or create a folder
+For Share file or folder click globe icon.
+And choose public for all users or choose class for a individual class students.
+</pre>
+<p>
+  <img src="assets/images/screenshots/new/sharefile.png" width="300" style="padding: 0px 20px;">
+  <img src="assets/images/screenshots/new/sharefilepop.png" width="600" style="padding: 0px 20px;">
+</p>
+    </section>
+
+		<section id="admin">
+			<div class="page-header"><h3>All About Admin</h3><hr class="notop"></div>
+<pre class="prettyprint lang-plain linenums">
+Dashboard user counter widget, today attendance widget, Earning graph, payment chart, profile widget, notice widget.
+Teacher list, add, edit, delete, view, print PDF, ID card & send PDF to mail
+Class list, add, edit & delete
+Section list, add, edit & delete
+Student list, add, edit, delete, view, print PDF, ID card & send PDF to mail
+Parents list, add, edit, delete, view, print PDF & send PDF to mail
+User (Accountant & Librarian) list, add, edit, delete, view, print PDF, ID card & send PDF to mail
+Subject list, add, edit & delete
+Grade list, add, edit & delete
+Exam list, add, edit & delete
+Exam schedule list, add, edit & delete
+Mark list, add & edit
+Routine list, add, edit & delete
+Student Attendance list, add & view.
+Teacher Attendance list, add & view. 
+Exam Attendance list, add. 
+Library member list, add, edit, delete, view, print PDF & send PDF to mail
+Books list, add, edit & delete
+Issue list, add, edit & delete
+Fine list
+Transport list, add, edit & delete
+Transport member list, add, edit, delete, view, print PDF & send PDF to mail
+Hostel list, add, edit & delete
+Category list, add, edit & delete
+Hostel member list, add, edit, delete, view, print PDF & send PDF to mail
+Fee type list, add, edit & delete
+Invoice list, add, edit, delete, view, payment, print, print pdf & send pdf to mail.
+Balance list.
+Expense list, add, edit, delete.
+Payment settings edit(Paypal).
+Promotion stduents.
+Media add folder, upload, delete & share files or folders.
+Mail/SMS template list, add, edit, delete & view.
+Mail/SMS Sent, list, view send mail/sms.
+SMS Setting(Clickatell, twilio, Bulk).
+Message Compose with attachment, inbox, sent, favorite, trash, reply & delete.
+Notice list, add, edit, delete, print PDF & send PDF to mail.
+Report list, view & download.
+Setting edit.
+Profile view.
+Change Password.
+Change Language.
+Notice Alert.
+</pre>
+
+  <p>
+    <center>
+      <h4> Admin Dashboard </h4> 
+    </center>
+  </p>
+  <p><img src="assets/images/admin/admin_view_dash.png" width="1000" style="padding: 0px 20px;"></p>
+
+  <p>
+    <center>
+      <h4> Create Teacher </h4> 
+    </center>
+  </p>
+  <p><img src="assets/images/admin/admin_create_teacher.png" width="1000" style="padding: 0px 20px;"></p>
+
+  <p>
+    <center>
+      <h4> View Teacher List</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/admin/admin_view_teacher_list.png" width="1000" style="padding: 0px 20px;"></p>
+  
+  <p>
+    <center>
+      <h4> Edit Teacher</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/admin/admin_edit_teacher.png" width="1000" style="padding: 0px 20px;"></p>
+  
+  <p>
+    <center>
+      <h4> Create Class</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/admin/admin_create_class.png" width="1000" style="padding: 0px 20px;"></p>
+  
+  <p>
+    <center>
+      <h4> View Class List</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/admin/admin_view_class_list.png" width="1000" style="padding: 0px 20px;"></p>
+  
+  <p>
+    <center>
+      <h4> Edit Class</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/admin/admin_edit_class.png" width="1000" style="padding: 0px 20px;"></p>
+  
+  <p>
+    <center>
+      <h4> Create Student</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/admin/admin_create_student.png" width="1000" style="padding: 0px 20px;"></p>
+  
+  <p>
+    <center>
+      <h4> View Student List</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/admin/admin_view_student_list.png" width="1000" style="padding: 0px 20px;"></p>
+  
+  <p>
+    <center>
+      <h4> Edit Student</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/admin/admin_edit_student.png" width="1000" style="padding: 0px 20px;"></p>
+  
+  <p>
+    <center>
+      <h4> View Student Profile</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/admin/admin_view_student_profile.png" width="1000" style="padding: 0px 20px;"></p>
+  
+  <p>
+    <center>
+      <h4> Create Parents</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/admin/admin_create_parents.png" width="1000" style="padding: 0px 20px;"></p>
+  
+  <p>
+    <center>
+      <h4> View Parents List</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/admin/admin_view_parents_list.png" width="1000" style="padding: 0px 20px;"></p>
+  
+  <p>
+    <center>
+      <h4> Edit Parents</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/admin/admin_edit_parents.png" width="1000" style="padding: 0px 20px;"></p>
+  
+  <p>
+    <center>
+      <h4> View Parents Profile</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/admin/admin_view_parents_profile.png" width="1000" style="padding: 0px 20px;"></p>
+  
+  <p>
+    <center>
+      <h4> Create Subject</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/admin/admin_create_subject.png" width="1000" style="padding: 0px 20px;"></p>
+  
+  <p>
+    <center>
+      <h4> View Subject List</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/admin/admin_view_subject_list.png" width="1000" style="padding: 0px 20px;"></p>
+  
+  <p>
+    <center>
+      <h4> Edit Subject</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/admin/admin_edit_subject.png" width="1000" style="padding: 0px 20px;"></p>
+  
+  <p>
+    <center>
+      <h4> Create Notice </h4>
+    </center>
+  </p>
+  <p><img src="assets/images/admin/admin_create_notice.png" width="1000" style="padding: 0px 20px;"></p>
+  
+  <p>
+    <center>
+      <h4> View Notice List</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/admin/admin_view_notice_list.png" width="1000" style="padding: 0px 20px;"></p>
+  
+  <p>
+    <center>
+      <h4> Notice Edit</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/admin/admin_edit_notice.png" width="1000" style="padding: 0px 20px;"></p>
+  
+  <p>
+    <center>
+      <h4> Change settings</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/admin/admin_change_setting.png" width="1000" style="padding: 0px 20px;"></p>
+  
+  <p>
+    <center>
+      <h4> Change Password</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/admin/admin_change_password.png" width="1000" style="padding: 0px 20px;"></p>
+
+
+		</section>
+
+		<section id="teacher">
+			<div class="page-header"><h3>All About Teacher</h3><hr class="notop"></div>
+<pre class="prettyprint lang-plain linenums">
+ Dashboard Student & Teahcer counter, subject counter, today attendance, profile summery, notice widget & calender.
+ Student information list & view.
+ Teacher information list & view.
+ Subject information list.
+ Exam schedule information list & view.
+ Mark add, list, view, print, pdf $ send pdf to mail.
+ Routine list.
+ Attendance add student attendance, view own attendance, add & view exam attendance.
+ Books list.
+ Transport list.
+ Hostel list, hostel category list.
+ Promotion stduents.
+ Media add folder, upload, delete & share files or folders.
+ Message Compose with attachment, inbox, sent, favorite, trash, reply & delete.
+ Notice list & view.
+ Profile view.
+ Change Password.
+ Change Language.
+ Notice Alert.
+</pre>
+  <p>
+    <center>
+      <h4> Teacher Dashboard</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/teacher/teacher_dash.png" width="1000" style="padding: 0px 20px;"></p>
+  <br>
+  
+  <p>
+    <center>
+      <h4> Teacher Add Mark</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/teacher/teacher_add_mark.png" width="1000" style="padding: 0px 20px;"></p>
+  
+  <br>
+
+  <p>
+    <center>
+      <h4> Teacher Profile</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/teacher/teacher_profile.png" width="1000" style="padding: 0px 20px;"></p>
+		</section>
+
+		
+		<section id="accountant">
+			<div class="page-header"><h3>All About Accountant</h3><hr class="notop"></div>
+<pre class="prettyprint lang-plain linenums">
+Dashboard Teahcer counter, Fee Type counter, Invoice counter, Expense counter, profile summery, notice widget & calender.
+Teacher information list & view.
+Transport list & member list, edit, delete, view, print PDF & send PDF to mail.
+Hostel list & member list edit & delete.
+Fee type list, add, edit & delete.
+Invoice list, add, edit, delete, view, payment, print, print pdf & send pdf to mail.
+Balance list.
+Expense list, add, edit, delete.
+Media view shared files or folders.
+Message Compose with attachment, inbox, sent, favorite, trash, reply & delete.
+Notice Board.
+Profile view.
+Change Password.
+Change Language.
+Notice Alert.
+</pre>
+  <br>
+  <p>
+    <center>
+      <h4>Accountant Dashboard</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/account/account_dash.png" width="1000" style="padding: 0px 20px;"></p>
+  <br>
+  <p>
+    <center>
+      <h4>Accountant Add Expense</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/account/account_add_expense.png" width="1000" style="padding: 0px 20px;"></p>
+  <br>
+	<p>
+    <center>
+      <h4>Accountant Add Invoice</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/account/account_add_invoice.png" width="1000" style="padding: 0px 20px;"></p>
+  <br>
+	//sfhshf
+	<p>
+    <center>
+      <h4>Accountant View Invoice</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/account/account_view_invoice.png" width="1000" style="padding: 0px 20px;"></p>
+  <br>
+
+  <p>
+    <center>
+      <h4>Accountant View Invoice History</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/account/account_view_invoice_history.png" width="1000" style="padding: 0px 20px;"></p>
+  <br>
+
+  <p>
+    <center>
+      <h4>Accountant View Student Balance</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/account/account_view_student_balance.png" width="1000" style="padding: 0px 20px;"></p>
+  <br>
+
+  <p>
+    <center>
+      <h4>Accountant View Fee Type List</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/account/account_view_fee_type_list.png" width="1000" style="padding: 0px 20px;"></p>
+  <br>
+
+  <p>
+    <center>
+      <h4>Accountant Add Payment Method</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/account/account_add_payment_method.png" width="1000" style="padding: 0px 20px;"></p>
+  <br>
+  
+
+		</section>
+
+		<section id="librarian">
+			<div class="page-header"><h3>All About Librarian</h3><hr class="notop"></div>
+<pre class="prettyprint lang-plain linenums">
+Dashboard Teahcer counter, Library members counter, Books counter, Issue counter widget.
+Teacher information list & view.
+Subject information list & view.
+Library member list view, edit & delete.
+Book list, add, edit & delete.
+Issue book list, add, view & delete.
+Fine add.
+Transport list.
+Hostel list.
+Media view shared files or folders.
+Message Compose with attachment, inbox, sent, favorite, trash, reply & delete.
+Notice Board.
+Profile view.
+Change Password.
+Change Language.
+Notice Alert.
+</pre>
+  <br>
+  <p>
+    <center>
+      <h4>Library Dashboard</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/lib/lib_dash.png" width="1000" style="padding: 0px 20px;"></p>
+  <br>
+  <p>
+    <center>
+      <h4>Library Members</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/lib/lib_member_list.png" width="1000" style="padding: 0px 20px;"></p>
+  <br>
+  <p>
+    <center>
+      <h4>Library Issue Books</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/lib/lib_add_book_issue.png" width="1000" style="padding: 0px 20px;"></p>
+  <br>
+  <p>
+    <center>
+      <h4>Library Books List</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/lib/lib_book_list.png" width="1000" style="padding: 0px 20px;"></p>
+		</section>
+
+		<section id="student">
+			<div class="page-header"><h3>All About Student</h3><hr class="notop"></div>
+<pre class="prettyprint lang-plain linenums">
+Dashboard Teahcer counter, Subject counter, Issue book counter, Own invoice counter, profile summery, notice widget & calender.
+Teacher information list & view.
+Subject information list of own class.
+Exam schedule information list & view of own class.
+Mark information view of own.
+Routine list of own class.
+Attendance information of own.
+Library Books list.
+Issue books list & own library profile information & history.
+Transport list & own transport profile information & history.
+Hostel list, category list & own hostel profile information & history.
+Invoice list & own invoice/account history.
+Media view shared files or folders.
+Message Compose with attachment, inbox, sent, favorite, trash, reply & delete.
+Notice Board.
+Profile view.
+Change Password.
+Change Language.
+Notice Alert.
+</pre>
+ <br>
+  <p>
+    <center>
+      <h4>Student Dashboard</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/student/student_view_dash.png" width="1000" style="padding: 0px 20px;"></p>
+ <br>
+
+  <p>
+    <center>
+      <h4>Student Attendance View</h4>
+    </center>
+  </p>
+  <p><img src="assets/images/student/student_view_attendance.png" width="1000" style="padding: 0px 20px;"></p>
+ <br>
+</section>
+
+		<section id="parents">
+		  <div class="page-header"><h3>All About Parents</h3><hr class="notop"></div>
+			<h5>Student & parent have same authorizes and parent can see multi student activities.</h5>
+		</section>
+
+		<section id="developer_support">
+		<div class="page-header"><h3>Developer Support</h3><hr class="notop"></div>
+			By Out official Support Desk
+			<p> 
+		  		<a href="http://support.inilabs.net"><img src="assets/images/logo.png" width="300" style="padding: 0px 20px;"></a>
+			</p>
+		  	<p>Contact us on Skype.</p>
+		  	<p> 
+		  		<a href="skype:inilabsn"><img src="assets/images/skype.png" style="padding: 0px 20px;"></a>
+			</p>
+		</section>
+
+		<section id="what_else">
+		<div class="page-header"><h3>What else</h3><hr class="notop"></div>
+			Nevertheless it's still not finished. We like to improve it wherever we can and appreciate your feedback.
+			<p>
+		  		Send us your feedback :<a href="http://support.inilabs.net"> Our Support Desk</a>
+			</p>
+		</section>
+	</div>
+</body>
+</html>

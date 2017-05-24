@@ -1,0 +1,33 @@
+<?php
+
+$lang['panel_title'] = "กิจวัตรประจำวัน";
+$lang['add_title'] = "เพิ่มประจำ";
+$lang['slno'] = "#";
+$lang['routine_classes'] = "ชั้น";
+$lang['routine_select_classes'] = "เลือกระดับ";
+$lang['routine_select_section'] = "เลือกมาตรา";
+$lang['routine_subject_select'] = "เลือกเรื่อง";
+$lang['routine_select_student'] = "เลือกนักศึกษา";
+$lang['routine_all_routine'] = "การปฏิบัติทั้งหมด";
+$lang['routine_section'] = "ส่วน";
+$lang['routine_student'] = "นักเรียน";
+$lang['routine_subject'] = "เรื่อง";
+$lang['routine_day'] = "วัน";
+$lang['routine_s_to'] = "ไปยัง";
+$lang['routine_start_time'] = "เริ่มต้นเวลา";
+$lang['routine_end_time'] = "สิ้นสุดวันที่เวลา";
+$lang['routine_room'] = "ห้อง";
+$lang['routine_note'] = "บันทึก";
+$lang['action'] = "การกระทำ";
+$lang['view'] = "ดู";
+$lang['edit'] = "แก้ไข";
+$lang['delete'] = "การลบ";
+$lang['add_routine'] = "เพิ่มเป็นประจำ";
+$lang['update_routine'] = "ประจำปรับปรุง";
+$lang['sunday'] = "อาทิตย์";
+$lang['monday'] = "จันทร์";
+$lang['tuesday'] = "อังคาร";
+$lang['wednesday'] = "พุธ";
+$lang['thursday'] = "พฤหัสบดี";
+$lang['friday'] = "ศุกร์";
+$lang['saturday'] = "เสาร์";

@@ -1,0 +1,33 @@
+<?php
+
+$lang['panel_title'] = "Routine";
+$lang['add_title'] = "Aggiungere Una Routine";
+$lang['slno'] = "#";
+$lang['routine_classes'] = "Classe";
+$lang['routine_select_classes'] = "Seleziona Classe";
+$lang['routine_select_section'] = "Selezionare Sezione";
+$lang['routine_subject_select'] = "Selezionare Oggetto";
+$lang['routine_select_student'] = "Seleziona Student";
+$lang['routine_all_routine'] = "Tutte Le Routine";
+$lang['routine_section'] = "Sezione";
+$lang['routine_student'] = "Studente";
+$lang['routine_subject'] = "Soggetto";
+$lang['routine_day'] = "Giorno";
+$lang['routine_s_to'] = "A";
+$lang['routine_start_time'] = "Ora Di Inizio";
+$lang['routine_end_time'] = "Fine Tempo";
+$lang['routine_room'] = "Stanza";
+$lang['routine_note'] = "Nota";
+$lang['action'] = "Azione";
+$lang['view'] = "Vista";
+$lang['edit'] = "Modifica";
+$lang['delete'] = "Cancellare";
+$lang['add_routine'] = "Aggiungi Routine";
+$lang['update_routine'] = "Aggiornamento Di Routine";
+$lang['sunday'] = "Domenica";
+$lang['monday'] = "Lunedi";
+$lang['tuesday'] = "Martedi";
+$lang['wednesday'] = "Mercoledi";
+$lang['thursday'] = "Giovedi";
+$lang['friday'] = "Venerdi";
+$lang['saturday'] = "Sabato";

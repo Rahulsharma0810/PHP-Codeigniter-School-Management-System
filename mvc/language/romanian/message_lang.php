@@ -1,0 +1,35 @@
+<?php
+
+$lang['panel_title'] = "Mesaj";
+$lang['add_title'] = "Compune";
+$lang['folder'] = "Foldere";
+$lang['inbox'] = "Inbox";
+$lang['to'] = "La";
+$lang['status'] = "Stare";
+$lang['name'] = "Nume";
+$lang['subject'] = "Subiect";
+$lang['attach'] = "Atașa";
+$lang['time'] = "Timp";
+$lang['sent'] = "Trimis";
+$lang['trash'] = "Gunoi";
+$lang['favorite'] = "Favorit";
+$lang['slno'] = "#";
+$lang['message_title'] = "Titlu";
+$lang['message_message'] = "Mesaj";
+$lang['message_date'] = "Data";
+$lang['action'] = "Acțiune";
+$lang['read_message'] = "Citește Mesaj";
+$lang['reply'] = "Răspunde";
+$lang['compose_new'] = "Compune Mesaj Nou";
+$lang['admin_select_label'] = "Lista Admin";
+$lang['student_select_label'] = "Lista Studenților";
+$lang['parent_select_label'] = "Lista Părinți";
+$lang['teacher_select_label'] = "Lista Profesorilor";
+$lang['librarian_select_label'] = "Lista Bibliotecarii";
+$lang['accountant_select_label'] = "Lista Contabililor";
+$lang['attachment'] = "Atașament";
+$lang['send'] = "Trimite";
+$lang['close'] = "Închide";
+$lang['sender'] = "Expeditor";
+$lang['discard'] = "Renunța";
+$lang['error'] = "Nu Răspunde Trimis!";

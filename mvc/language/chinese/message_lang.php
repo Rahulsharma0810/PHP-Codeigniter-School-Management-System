@@ -1,0 +1,35 @@
+<?php
+
+$lang['panel_title'] = "信息";
+$lang['add_title'] = "撰写";
+$lang['folder'] = "文件夹";
+$lang['inbox'] = "收件箱";
+$lang['to'] = "至";
+$lang['status'] = "状态";
+$lang['name'] = "名字";
+$lang['subject'] = "学科";
+$lang['attach'] = "附";
+$lang['time'] = "时间";
+$lang['sent'] = "发送";
+$lang['trash'] = "垃圾";
+$lang['favorite'] = "喜爱";
+$lang['slno'] = "＃";
+$lang['message_title'] = "称号";
+$lang['message_message'] = "信息";
+$lang['message_date'] = "日期";
+$lang['action'] = "行动";
+$lang['read_message'] = "阅读邮件";
+$lang['reply'] = "回复";
+$lang['compose_new'] = "撰写新邮件";
+$lang['admin_select_label'] = "管理员列表";
+$lang['student_select_label'] = "学生名单";
+$lang['parent_select_label'] = "家长名单";
+$lang['teacher_select_label'] = "教师名单";
+$lang['librarian_select_label'] = "图书馆员名单";
+$lang['accountant_select_label'] = "会计师名单";
+$lang['attachment'] = "附件";
+$lang['send'] = "发送";
+$lang['close'] = "关闭";
+$lang['sender'] = "寄件人";
+$lang['discard'] = "丢弃";
+$lang['error'] = "回复未发送，";

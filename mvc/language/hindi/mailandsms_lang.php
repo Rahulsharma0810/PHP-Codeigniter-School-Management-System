@@ -1,0 +1,31 @@
+<?php
+
+$lang['panel_title'] = "मेल / एसएमएस";
+$lang['add_title'] = "एक मेल / एसएमएस जोड़ें";
+$lang['slno'] = "#";
+$lang['mailandsms_users'] = "उपयोगकर्ता";
+$lang['mailandsms_select_user'] = "उपभोक्ताओं का चयन करें";
+$lang['mailandsms_select_template'] = "टेम्पलेट का चयन करें";
+$lang['mailandsms_select_send_by'] = "द्वारा भेजें चुनें";
+$lang['mailandsms_students'] = "छात्र";
+$lang['mailandsms_parents'] = "माता-पिता";
+$lang['mailandsms_teachers'] = "शिक्षक";
+$lang['mailandsms_librarians'] = "पुस्तकाध्यक्ष";
+$lang['mailandsms_accountants'] = "लेखाकार";
+$lang['mailandsms_template'] = "खाका";
+$lang['mailandsms_type'] = "टाइप";
+$lang['mailandsms_email'] = "ईमेल";
+$lang['mailandsms_sms'] = "एसएमएस";
+$lang['mailandsms_getway'] = "इसके द्वारा भेजें";
+$lang['mailandsms_subject'] = "विषय";
+$lang['mailandsms_message'] = "संदेश";
+$lang['mailandsms_dateandtime'] = "तिथि और समय";
+$lang['mailandsms_clickatell'] = "Clickatell";
+$lang['mailandsms_twilio'] = "Twilio";
+$lang['mailandsms_bulk'] = "Bulk";
+$lang['action'] = "कार्य";
+$lang['view'] = "देखें";
+$lang['send'] = "भेजें";
+$lang['mail_success'] = "ई-मेल! सफलतापूर्वक भेज";
+$lang['mail_error'] = "उफ़! ईमेल भेजने के लिए नहीं!";
+$lang['mail_error_user'] = "उफ़! प्रयोक्ता सूची खाली है!";

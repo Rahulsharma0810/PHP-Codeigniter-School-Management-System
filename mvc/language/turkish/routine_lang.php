@@ -1,0 +1,33 @@
+<?php
+
+$lang['panel_title'] = "Rutin";
+$lang['add_title'] = "Bir Rutin Ekle";
+$lang['slno'] = "#";
+$lang['routine_classes'] = "Sınıf";
+$lang['routine_select_classes'] = "Seçin Sınıf";
+$lang['routine_select_section'] = "Seçin Bölümü";
+$lang['routine_subject_select'] = "Konu Seçin";
+$lang['routine_select_student'] = "Seçin Öğrenci";
+$lang['routine_all_routine'] = "Tüm Rutinler";
+$lang['routine_section'] = "Bölüm";
+$lang['routine_student'] = "Öğrenci";
+$lang['routine_subject'] = "Konu";
+$lang['routine_day'] = "Gün";
+$lang['routine_s_to'] = "Için";
+$lang['routine_start_time'] = "Zaman Başlama";
+$lang['routine_end_time'] = "Zaman Bitiş";
+$lang['routine_room'] = "Oda";
+$lang['routine_note'] = "Not";
+$lang['action'] = "Eylem";
+$lang['view'] = "Görünüm";
+$lang['edit'] = "Düzenle";
+$lang['delete'] = "Silmek";
+$lang['add_routine'] = "Rutin Ekle";
+$lang['update_routine'] = "Güncelleme Rutin";
+$lang['sunday'] = "Pazar";
+$lang['monday'] = "Pazartesi";
+$lang['tuesday'] = "Salı";
+$lang['wednesday'] = "Çarşamba";
+$lang['thursday'] = "Perşembe";
+$lang['friday'] = "Cuma";
+$lang['saturday'] = "Cumartesi";

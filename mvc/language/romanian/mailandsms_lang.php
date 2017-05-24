@@ -1,0 +1,31 @@
+<?php
+
+$lang['panel_title'] = "Mail / Sms";
+$lang['add_title'] = "Adaugă Un E-mail / Sms";
+$lang['slno'] = "#";
+$lang['mailandsms_users'] = "Utilizatori";
+$lang['mailandsms_select_user'] = "Selectați Utilizatori";
+$lang['mailandsms_select_template'] = "Selectați Format";
+$lang['mailandsms_select_send_by'] = "Selectați Trimitere Prin";
+$lang['mailandsms_students'] = "Elevii";
+$lang['mailandsms_parents'] = "Părinți";
+$lang['mailandsms_teachers'] = "Profesori";
+$lang['mailandsms_librarians'] = "Bibliotecarii";
+$lang['mailandsms_accountants'] = "Contabili";
+$lang['mailandsms_template'] = "Șablon";
+$lang['mailandsms_type'] = "Tip";
+$lang['mailandsms_email'] = "Email";
+$lang['mailandsms_sms'] = "Sms";
+$lang['mailandsms_getway'] = "Trimite Prin";
+$lang['mailandsms_subject'] = "Subiect";
+$lang['mailandsms_message'] = "Mesaj";
+$lang['mailandsms_dateandtime'] = "Data Si Ora";
+$lang['mailandsms_clickatell'] = "Clickatell";
+$lang['mailandsms_twilio'] = "Twilio";
+$lang['mailandsms_bulk'] = "Masă";
+$lang['action'] = "Acțiune";
+$lang['view'] = "Vedere";
+$lang['send'] = "Trimite";
+$lang['mail_success'] = "Email Trimite Cu Succes!";
+$lang['mail_error'] = "Oops! E-mail Nu Trimite!";
+$lang['mail_error_user'] = "Oops! Lista De Useri Este Gol!";

@@ -1,0 +1,31 @@
+<?php
+
+$lang['panel_title'] = "Почта / Sms";
+$lang['add_title'] = "Добавить почта / Sms";
+$lang['slno'] = "#";
+$lang['mailandsms_users'] = "Пользователи";
+$lang['mailandsms_select_user'] = "Выбор пользователей";
+$lang['mailandsms_select_template'] = "Выбрать шаблон";
+$lang['mailandsms_select_send_by'] = "Выберите Отправить по";
+$lang['mailandsms_students'] = "Студенты";
+$lang['mailandsms_parents'] = "Родители";
+$lang['mailandsms_teachers'] = "Учителя";
+$lang['mailandsms_librarians'] = "Библиотекари";
+$lang['mailandsms_accountants'] = "Бухгалтеры";
+$lang['mailandsms_template'] = "Шаблон";
+$lang['mailandsms_type'] = "Тип";
+$lang['mailandsms_email'] = "E-mail";
+$lang['mailandsms_sms'] = "Sms";
+$lang['mailandsms_getway'] = "Отправлено";
+$lang['mailandsms_subject'] = "Предмет";
+$lang['mailandsms_message'] = "Сообщение";
+$lang['mailandsms_dateandtime'] = "Дата и время";
+$lang['mailandsms_clickatell'] = "Clickatell";
+$lang['mailandsms_twilio'] = "Twilio";
+$lang['mailandsms_bulk'] = "Масса";
+$lang['action'] = "Действие";
+$lang['view'] = "Вид";
+$lang['send'] = "Послать";
+$lang['mail_success'] = "E-mail отправить успешно!";
+$lang['mail_error'] = "ой! не почта отправить!";
+$lang['mail_error_user'] = "ой! список пользователя пуст!";

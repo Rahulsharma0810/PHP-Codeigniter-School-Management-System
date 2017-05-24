@@ -1,0 +1,35 @@
+<?php
+
+$lang['panel_title'] = "رسالة";
+$lang['add_title'] = "تشكل";
+$lang['folder'] = "المجلدات";
+$lang['inbox'] = "البريد الوارد";
+$lang['to'] = "إلى";
+$lang['status'] = "الحالة";
+$lang['name'] = "اسم";
+$lang['subject'] = "موضوع";
+$lang['attach'] = "تعلق";
+$lang['time'] = "مرة";
+$lang['sent'] = "أرسلت";
+$lang['trash'] = "قمامة";
+$lang['favorite'] = "مفضل";
+$lang['slno'] = "#";
+$lang['message_title'] = "عنوان";
+$lang['message_message'] = "رسالة";
+$lang['message_date'] = "تاريخ";
+$lang['action'] = "عمل";
+$lang['read_message'] = "قراءة رسالة";
+$lang['reply'] = "رد";
+$lang['compose_new'] = "إنشاء رسالة جديدة";
+$lang['admin_select_label'] = "قائمة المشرف";
+$lang['student_select_label'] = "قائمة الطلاب";
+$lang['parent_select_label'] = "قائمة الآباء";
+$lang['teacher_select_label'] = "قائمة المعلمين";
+$lang['librarian_select_label'] = "قائمة أمناء المكتبات";
+$lang['accountant_select_label'] = "قائمة المحاسبين";
+$lang['attachment'] = "التعلق";
+$lang['send'] = "إرسال";
+$lang['close'] = "قريب";
+$lang['sender'] = "مرسل";
+$lang['discard'] = "نبذ";
+$lang['error'] = "الرد لم ترسل،";

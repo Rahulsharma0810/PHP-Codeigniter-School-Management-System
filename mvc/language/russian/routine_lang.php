@@ -1,0 +1,33 @@
+<?php
+
+$lang['panel_title'] = "Рутина";
+$lang['add_title'] = "Добавить рутины";
+$lang['slno'] = "#";
+$lang['routine_classes'] = "Класс";
+$lang['routine_select_classes'] = "Выберите класс";
+$lang['routine_select_section'] = "Выберите раздел";
+$lang['routine_subject_select'] = "Выберите Тема";
+$lang['routine_select_student'] = "Выберите Студент";
+$lang['routine_all_routine'] = "Все Подпрограммы";
+$lang['routine_section'] = "Раздел";
+$lang['routine_student'] = "Студент";
+$lang['routine_subject'] = "Предмет";
+$lang['routine_day'] = "День";
+$lang['routine_s_to'] = "В";
+$lang['routine_start_time'] = "Время разогрева";
+$lang['routine_end_time'] = "Время окончания";
+$lang['routine_room'] = "Комната";
+$lang['routine_note'] = "Заметка";
+$lang['action'] = "Действие";
+$lang['view'] = "Вид";
+$lang['edit'] = "Редактировать";
+$lang['delete'] = "Удалить";
+$lang['add_routine'] = "Добавить Регулярное";
+$lang['update_routine'] = "Обновление Регулярное";
+$lang['sunday'] = "Воскресенье";
+$lang['monday'] = "Понедельник";
+$lang['tuesday'] = "Вторник";
+$lang['wednesday'] = "Среда";
+$lang['thursday'] = "Четверг";
+$lang['friday'] = "Пятница";
+$lang['saturday'] = "Суббота";

@@ -1,0 +1,35 @@
+<?php
+
+$lang['panel_title'] = "Mesaj";
+$lang['add_title'] = "Oluşturmak";
+$lang['folder'] = "Klasörler";
+$lang['inbox'] = "Gelen Kutusu";
+$lang['to'] = "Için";
+$lang['status'] = "Durum";
+$lang['name'] = "Isim";
+$lang['subject'] = "Konu";
+$lang['attach'] = "Iliştirmek";
+$lang['time'] = "Zaman";
+$lang['sent'] = "Gönderilen";
+$lang['trash'] = "Çöp";
+$lang['favorite'] = "Favori";
+$lang['slno'] = "#";
+$lang['message_title'] = "Başlık";
+$lang['message_message'] = "Mesaj";
+$lang['message_date'] = "Tarih";
+$lang['action'] = "Eylem";
+$lang['read_message'] = "Oku Mesaj";
+$lang['reply'] = "Cevap";
+$lang['compose_new'] = "Yeni Mesaj Oluştur";
+$lang['admin_select_label'] = "Yönetici Listesi";
+$lang['student_select_label'] = "Öğrenciler Listesi";
+$lang['parent_select_label'] = "Ebeveynler Listesi";
+$lang['teacher_select_label'] = "Öğretmenler Listesi";
+$lang['librarian_select_label'] = "Kütüphaneciler Listesi";
+$lang['accountant_select_label'] = "Muhasebeciler Listesi";
+$lang['attachment'] = "Haciz";
+$lang['send'] = "Göndermek";
+$lang['close'] = "Kapat";
+$lang['sender'] = "Gönderen";
+$lang['discard'] = "Iskarta";
+$lang['error'] = "Cevap Gönderilmedi!";

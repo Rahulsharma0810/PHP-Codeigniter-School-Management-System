@@ -1,0 +1,33 @@
+<?php
+
+$lang['panel_title'] = "রুটিন";
+$lang['add_title'] = "একটি রুটিন যোগ করুন";
+$lang['slno'] = "#";
+$lang['routine_classes'] = "ক্লাস";
+$lang['routine_select_classes'] = "নির্বাচন ক্লাস";
+$lang['routine_select_section'] = "শাখা নির্বাচন করুন";
+$lang['routine_subject_select'] = "নির্বাচন বিষয়";
+$lang['routine_select_student'] = "নির্বাচন ছাত্রছাত্রী";
+$lang['routine_all_routine'] = "রুটিন";
+$lang['routine_section'] = "শাখা";
+$lang['routine_student'] = "ছাত্রছাত্রী";
+$lang['routine_subject'] = "বিষয়";
+$lang['routine_day'] = "দিন";
+$lang['routine_s_to'] = "থেকে";
+$lang['routine_start_time'] = "সময় শুরু";
+$lang['routine_end_time'] = "সময় শেষ";
+$lang['routine_room'] = "রুম";
+$lang['routine_note'] = "বিঃদ্রঃ";
+$lang['action'] = "কর্ম";
+$lang['view'] = "দৃশ্য";
+$lang['edit'] = "সম্পাদন করা";
+$lang['delete'] = "মুছে দিন";
+$lang['add_routine'] = "রুটিন যোগ করুন";
+$lang['update_routine'] = "আপডেট রুটিন";
+$lang['sunday'] = "রবিবার";
+$lang['monday'] = "সোমবার";
+$lang['tuesday'] = "মঙ্গলবার";
+$lang['wednesday'] = "বুধবার";
+$lang['thursday'] = "বৃহস্পতিবার";
+$lang['friday'] = "শুক্রবার";
+$lang['saturday'] = "শনিবার";

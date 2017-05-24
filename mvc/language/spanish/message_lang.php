@@ -1,0 +1,35 @@
+<?php
+
+$lang['panel_title'] = "Mensaje";
+$lang['add_title'] = "Componer";
+$lang['folder'] = "Carpetas";
+$lang['inbox'] = "Bandeja De Entrada";
+$lang['to'] = "A";
+$lang['status'] = "Estado";
+$lang['name'] = "Nombre";
+$lang['subject'] = "Sujeto";
+$lang['attach'] = "Adjuntar";
+$lang['time'] = "Hora";
+$lang['sent'] = "Enviado";
+$lang['trash'] = "Basura";
+$lang['favorite'] = "Favorito";
+$lang['slno'] = "#";
+$lang['message_title'] = "Título";
+$lang['message_message'] = "Mensaje";
+$lang['message_date'] = "Fecha";
+$lang['action'] = "Acción";
+$lang['read_message'] = "Leer Mensaje";
+$lang['reply'] = "Responder";
+$lang['compose_new'] = "Componer Mensaje Nuevo";
+$lang['admin_select_label'] = "Lista De Administración";
+$lang['student_select_label'] = "Lista De Estudiantes";
+$lang['parent_select_label'] = "Lista Padres";
+$lang['teacher_select_label'] = "Lista De Profesores";
+$lang['librarian_select_label'] = "Lista De Bibliotecarios";
+$lang['accountant_select_label'] = "Lista De Contadores";
+$lang['attachment'] = "Accesorio";
+$lang['send'] = "Enviar";
+$lang['close'] = "Cerca";
+$lang['sender'] = "Remitente";
+$lang['discard'] = "Descartar";
+$lang['error'] = "Responder No Enviado!";

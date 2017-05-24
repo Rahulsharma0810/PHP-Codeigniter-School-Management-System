@@ -1,0 +1,35 @@
+<?php
+
+$lang['panel_title'] = "ข่าวสาร";
+$lang['add_title'] = "แต่ง";
+$lang['folder'] = "โฟลเดอร์";
+$lang['inbox'] = "กล่องขาเข้า";
+$lang['to'] = "ไปยัง";
+$lang['status'] = "สถานะ";
+$lang['name'] = "ชื่อ";
+$lang['subject'] = "เรื่อง";
+$lang['attach'] = "แนบ";
+$lang['time'] = "เวลา";
+$lang['sent'] = "ส่ง";
+$lang['trash'] = "ขยะ";
+$lang['favorite'] = "ที่ชื่นชอบ";
+$lang['slno'] = "#";
+$lang['message_title'] = "ชื่อเรื่อง";
+$lang['message_message'] = "ข่าวสาร";
+$lang['message_date'] = "วันที่";
+$lang['action'] = "การกระทำ";
+$lang['read_message'] = "อ่านข้อความ";
+$lang['reply'] = "ตอบ";
+$lang['compose_new'] = "เขียนข้อความใหม่";
+$lang['admin_select_label'] = "รายชื่อผู้ดูแลระบบ";
+$lang['student_select_label'] = "รายชื่อนักเรียน";
+$lang['parent_select_label'] = "ผู้ปกครองรายชื่อ";
+$lang['teacher_select_label'] = "ครูรายการ";
+$lang['librarian_select_label'] = "บรรณารักษ์รายการ";
+$lang['accountant_select_label'] = "บัญชีรายชื่อ";
+$lang['attachment'] = "ความผูกพัน";
+$lang['send'] = "ส่ง";
+$lang['close'] = "ปิด";
+$lang['sender'] = "ผู้ส่ง";
+$lang['discard'] = "ทิ้ง";
+$lang['error'] = "ตอบไม่ได้ส่ง";

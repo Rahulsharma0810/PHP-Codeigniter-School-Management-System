@@ -1,0 +1,33 @@
+<?php
+
+$lang['panel_title'] = "روتين";
+$lang['add_title'] = "إضافة روتين";
+$lang['slno'] = "#";
+$lang['routine_classes'] = "فئة";
+$lang['routine_select_classes'] = "حدد فئة";
+$lang['routine_select_section'] = "حدد القسم";
+$lang['routine_subject_select'] = "حدد الموضوع";
+$lang['routine_select_student'] = "حدد الطلاب";
+$lang['routine_all_routine'] = "جميع الروتينات";
+$lang['routine_section'] = "قسم";
+$lang['routine_student'] = "طالب";
+$lang['routine_subject'] = "موضوع";
+$lang['routine_day'] = "يوم";
+$lang['routine_s_to'] = "إلى";
+$lang['routine_start_time'] = "بدء التوقيت";
+$lang['routine_end_time'] = "إنهاء الوقت";
+$lang['routine_room'] = "غرفة";
+$lang['routine_note'] = "ملاحظة";
+$lang['action'] = "عمل";
+$lang['view'] = "عرض";
+$lang['edit'] = "تحرير";
+$lang['delete'] = "حذف";
+$lang['add_routine'] = "إضافة الروتينية";
+$lang['update_routine'] = "تحديث الروتينية";
+$lang['sunday'] = "الأحد";
+$lang['monday'] = "الإثنين";
+$lang['tuesday'] = "الثلاثاء";
+$lang['wednesday'] = "الأربعاء";
+$lang['thursday'] = "الخميس";
+$lang['friday'] = "الجمعة";
+$lang['saturday'] = "السبت";

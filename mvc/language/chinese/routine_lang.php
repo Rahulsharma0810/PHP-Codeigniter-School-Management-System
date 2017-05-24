@@ -1,0 +1,33 @@
+<?php
+
+$lang['panel_title'] = "常规";
+$lang['add_title'] = "添加常规";
+$lang['slno'] = "＃";
+$lang['routine_classes'] = "类";
+$lang['routine_select_classes'] = "选择类别";
+$lang['routine_select_section'] = "选择部分";
+$lang['routine_subject_select'] = "选择主题";
+$lang['routine_select_student'] = "选择学生";
+$lang['routine_all_routine'] = "所有例程";
+$lang['routine_section'] = "部分";
+$lang['routine_student'] = "学生";
+$lang['routine_subject'] = "学科";
+$lang['routine_day'] = "天";
+$lang['routine_s_to'] = "至";
+$lang['routine_start_time'] = "开始时间";
+$lang['routine_end_time'] = "结束时间";
+$lang['routine_room'] = "房";
+$lang['routine_note'] = "注意";
+$lang['action'] = "行动";
+$lang['view'] = "视图";
+$lang['edit'] = "编辑";
+$lang['delete'] = "删除";
+$lang['add_routine'] = "常规添加";
+$lang['update_routine'] = "常规更新";
+$lang['sunday'] = "Sunday";
+$lang['monday'] = "星期一";
+$lang['tuesday'] = "星期二";
+$lang['wednesday'] = "星期三";
+$lang['thursday'] = "星期四";
+$lang['friday'] = "Friday";
+$lang['saturday'] = "星期六";

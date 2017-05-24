@@ -1,0 +1,35 @@
+<?php
+
+$lang['panel_title'] = "Сообщение";
+$lang['add_title'] = "Сочинять";
+$lang['folder'] = "Папки";
+$lang['inbox'] = "Входящие";
+$lang['to'] = "В";
+$lang['status'] = "Статус";
+$lang['name'] = "Имя";
+$lang['subject'] = "Предмет";
+$lang['attach'] = "Придавать";
+$lang['time'] = "Время";
+$lang['sent'] = "Послал";
+$lang['trash'] = "Мусор";
+$lang['favorite'] = "Любимый";
+$lang['slno'] = "#";
+$lang['message_title'] = "Название";
+$lang['message_message'] = "Сообщение";
+$lang['message_date'] = "Дата";
+$lang['action'] = "Действие";
+$lang['read_message'] = "Читайте сообщение";
+$lang['reply'] = "Ответить";
+$lang['compose_new'] = "Написать новое сообщение";
+$lang['admin_select_label'] = "Список Админ";
+$lang['student_select_label'] = "Список студентов";
+$lang['parent_select_label'] = "Родителям";
+$lang['teacher_select_label'] = "Список учителей";
+$lang['librarian_select_label'] = "Список Библиотекари";
+$lang['accountant_select_label'] = "Список Бухгалтеры";
+$lang['attachment'] = "Привязанность";
+$lang['send'] = "Послать";
+$lang['close'] = "Закрыть";
+$lang['sender'] = "Отправитель";
+$lang['discard'] = "Отбрасывать";
+$lang['error'] = "Ответить не послал!";

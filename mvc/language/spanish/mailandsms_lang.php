@@ -1,0 +1,31 @@
+<?php
+
+$lang['panel_title'] = "Correo / Sms";
+$lang['add_title'] = "Añadir Un Mail / Sms";
+$lang['slno'] = "#";
+$lang['mailandsms_users'] = "Usuarios";
+$lang['mailandsms_select_user'] = "Seleccionar Usuarios";
+$lang['mailandsms_select_template'] = "Seleccionar Plantilla";
+$lang['mailandsms_select_send_by'] = "Seleccione Enviar Por";
+$lang['mailandsms_students'] = "Estudiantes";
+$lang['mailandsms_parents'] = "Padres";
+$lang['mailandsms_teachers'] = "Profesores";
+$lang['mailandsms_librarians'] = "Bibliotecarios";
+$lang['mailandsms_accountants'] = "Contadores";
+$lang['mailandsms_template'] = "Modelo";
+$lang['mailandsms_type'] = "Escribe";
+$lang['mailandsms_email'] = "Email";
+$lang['mailandsms_sms'] = "Sms";
+$lang['mailandsms_getway'] = "Enviado Por";
+$lang['mailandsms_subject'] = "Sujeto";
+$lang['mailandsms_message'] = "Mensaje";
+$lang['mailandsms_dateandtime'] = "Fecha Y Hora";
+$lang['mailandsms_clickatell'] = "Clickatell";
+$lang['mailandsms_twilio'] = "Twilio";
+$lang['mailandsms_bulk'] = "Masa";
+$lang['action'] = "Acción";
+$lang['view'] = "Vista";
+$lang['send'] = "Enviar";
+$lang['mail_success'] = "Correo Electrónico Enviar Con éxito!";
+$lang['mail_error'] = "¡uy! No Envía Por Correo Electrónico!";
+$lang['mail_error_user'] = "¡uy! Lista De Usuarios Está Vacía!";
